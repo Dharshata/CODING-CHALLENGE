@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>FORM</title>
+</head>
+<body style="color: black;background-color: black;" >
+    <div class ="container" >
+        <form  id="form" onsubmit="savedata(event)">
+            <h1 >REGISTER FORM </h1>
+            <div class="box">
+                <label for="username">USERNAME:</label>
+                <input type="text" name="username" id="username">
+                <div class="error"></div>
+            </div>
+            <div class="box">
+                <label for="email">EMAIL:</label>
+                <input type="text" name="email" id="email">
+                <div class="error"></div>
+            </div>
+            <div class="box">
+                <label for="password">PASSWORD:</label>
+                <input type="password" name="password" id="password">
+                <div class="error"></div>
+            </div>
+            <div class="box">
+                <label for="password">CONFIRM PASSWORD:</label>
+                <input type="password" name="psw" id="psw">
+                <div class="error"></div>
+            </div>
+            <button class="btn" type="submit">REGISTER NOW</button>
+            <div class="link">
+                <a href="">ALREADY HAVE AN ACCOUNT</a>
+            </div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
